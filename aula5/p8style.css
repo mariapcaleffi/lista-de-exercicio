@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    margin: 30px;
+    width: 100%;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+
+    & .titulo {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    & .link {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    & .link nav a {
+        color: blue;
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        margin: 5px;
+    }
+
+    & .link nav a:hover {
+        color: red;
+        font-size: 18px;
+    }
+}
+
+body{
+
+    & .marromclaro1{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(135, 54, 54);
+    }
+
+    & .linha span {
+        display: inline-block;
+        margin: 15px;
+        color: white;
+     }
+
+    & .foto{
+        background-color: indianred;
+        width: 100%;
+        height: 600px;
+    }
+
+    & .foto img{
+        margin-top: 125px;
+        border-radius: 15px;
+    }
+
+    & .marromclaro2{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(135, 54, 54);
+    }
+}
